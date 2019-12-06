@@ -1,0 +1,40 @@
+Cut 8 features out of 29
+Cut features are:
+['V6', 'Time', 'V24', 'V13', 'V15', 'V23', 'V22', 'V25']
+Using features:
+['V1', 'V2', 'V3', 'V4', 'V5', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V14', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V26', 'V27', 'V28', 'Amount']
+
+Train Split: 0.7
+Test Split: 0.3
+
+Logistic Regression:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85296
+           1       0.80      0.81      0.80       147
+
+    accuracy                           1.00     85443
+   macro avg       0.90      0.90      0.90     85443
+weighted avg       1.00      1.00      1.00     85443
+
+
+Adaboost:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85296
+           1       0.74      0.80      0.77       147
+
+    accuracy                           1.00     85443
+   macro avg       0.87      0.90      0.88     85443
+weighted avg       1.00      1.00      1.00     85443
+
+
+Random Forest: 
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85296
+           1       0.96      0.76      0.85       147
+
+    accuracy                           1.00     85443
+   macro avg       0.98      0.88      0.92     85443
+weighted avg       1.00      1.00      1.00     85443
